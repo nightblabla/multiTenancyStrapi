@@ -41,10 +41,11 @@
 // const path_NPM = path.join( path_NODEJS, 'node_modules', 'npm', 'bin', 'npm-cli.js');
 
 module.exports = {
+
     apps: [
       {
         name: 'strapimultitest1',
-        cwd: '${__dirname}/\\strapi-multitenancy',
+        cwd: '/home/emre/strapi-multitenancy',
         //script: '..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
         script: "npm",
         //script: path_NPM,
@@ -61,7 +62,7 @@ module.exports = {
       },
       {
         name: 'strapimultitest2',
-        cwd: '${__dirname}\\strapi-multitenancy',
+        cwd: '/home/emre/strapi-multitenancy',
        // script: '..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
         //script: path_NPM,
         script:"npm",
